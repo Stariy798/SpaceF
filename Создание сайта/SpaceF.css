@@ -1,0 +1,224 @@
+* {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* 2. Запрещаем выделение только для .grn1, .grn2, .grn3 */
+.grn1,
+.grn2,
+.grn3,
+.grn4,
+.btn1,
+.btn2,
+.btn3,
+.btn4{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Разрешить выделение на нужных элементах */
+h1,
+.cosmo,
+.apar {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+body {
+    background: black;
+    background-image: url(images/with_padding\ 1.png);
+    background-repeat: no-repeat;
+}
+body::before{
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    background: url('images/c263d2184f802a05ef422346a937ed1a.gif') center center/cover no-repeat;
+    opacity: 0.7; /* прозрачность, если нужно */
+    pointer-events: none;
+}
+h1 {
+    color:#a6e863b7;
+    font-family: initial;
+    position: absolute;
+    top:50px;
+    left: 600px;
+    font-size: 35px;
+    box-shadow: #ffffff 0px 0px 30px;
+}
+.win1 {
+    width: 260px;
+    height: 400px;
+    background: hsl(0, 0%, 70%);
+    border-radius: 20px; 
+    position: absolute;
+    left: 378px; 
+    top: 188px;
+    background-image: url(images/910EGQ5fzXL._UF1000\,1000_QL80_\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.win2 {
+    width: 260px;
+    height: 400px;
+    background: hsl(0, 0%, 70%);
+    border-radius: 20px; 
+    position: absolute;
+    left: 678px; 
+    top: 188px;
+    background-image: url(images/Group\ 3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+p{
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 467px;
+    left: 400px;
+    font-size: 19px; 
+    
+}
+.btn1 {
+    width: 100px;
+    height: 40px;
+    background: #A5E863;
+    border-radius: 13px; 
+    position: absolute;
+    left: 500px; 
+    top: 530px;
+    cursor: pointer;
+    border:black 1px solid;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn2 {
+    width: 100px;
+    height: 40px;
+    background: #A5E863;
+    border-radius: 13px; 
+    position: absolute;
+    left: 800px; 
+    top: 530px;
+    cursor: pointer;
+    border:black 1px solid;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn3 {
+    width: 100px;
+    height: 40px;
+    background: #A5E863;
+    border-radius: 13px; 
+    position: absolute;
+    left: 500px; 
+    top: 950px;
+    cursor: pointer;
+    border:black 1px solid;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn4{
+    width: 100px;
+    height: 40px;
+    background: #A5E863;
+    border-radius: 13px; 
+    position: absolute;
+    left: 800px; 
+    top: 950px;
+    cursor: pointer;
+    border:black 1px solid;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cosmo{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    left: 700px;
+    top: 489px;
+}
+ 
+.win3 {
+    width: 260px;
+    height: 400px;
+    background: hsl(0, 0%, 70%);
+    border-radius: 20px; 
+    position: absolute;
+    left: 378px; 
+    top: 608px;
+    background-image: url(images/Rectangle\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.win4 {
+    width: 260px;
+    height: 400px;
+    background: hsl(0, 0%, 70%);
+    border-radius: 20px; 
+    position: absolute;
+    left: 678px; 
+    top: 608px;
+    background-image: url(images/image\ 1\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+    
+.apar {
+    color:rgb(0, 0, 0);
+    font-size: 21px;
+    position: absolute;
+    left: 400px;
+    top: 908px;
+    text-decoration: none;
+}
+.grn1{   /*300грн*/
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 547px;
+    left: 400px;
+    font-size: 20px;
+}
+.grn2{   /*200грн*/
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 547px;
+    left: 700px;
+    font-size: 20px;
+}
+.grn3{    /*250грн*/
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 967px;
+    left: 400px;
+    font-size: 20px;
+}
+.grn4{
+    color:rgb(0, 0, 0);
+    position: absolute;
+    top: 967px;
+    left: 700px;
+    font-size: 20px;
+}
+.space{
+    position: absolute;
+    top: 908px;
+    left: 700px;
+    font-size: 20px;
+}
